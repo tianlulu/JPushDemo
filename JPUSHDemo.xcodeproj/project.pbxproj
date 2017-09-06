@@ -15,6 +15,10 @@
 		6E0A44D21F5EB3CE00AD7EA4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6E0A44D01F5EB3CE00AD7EA4 /* LaunchScreen.storyboard */; };
 		6E0A44DD1F5EB3CE00AD7EA4 /* JPUSHDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E0A44DC1F5EB3CE00AD7EA4 /* JPUSHDemoTests.m */; };
 		6E0A44E81F5EB3CE00AD7EA4 /* JPUSHDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E0A44E71F5EB3CE00AD7EA4 /* JPUSHDemoUITests.m */; };
+		6E42E09A1F5F8BBE009EEF1D /* AppDelegate+JPushSDK.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E42E0991F5F8BBE009EEF1D /* AppDelegate+JPushSDK.m */; };
+		6E5783171F5FA33700468802 /* YesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E5783161F5FA33700468802 /* YesViewController.m */; };
+		6E57831A1F5FA34D00468802 /* NoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E5783191F5FA34D00468802 /* NoViewController.m */; };
+		88A4E84F83A9496B648C9FCF /* libPods-JPUSHDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B49793F7680ADB2B93C3B22 /* libPods-JPUSHDemo.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +39,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2BA617DAF184E0C2DEC8C41A /* Pods-JPUSHDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JPUSHDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-JPUSHDemo/Pods-JPUSHDemo.release.xcconfig"; sourceTree = "<group>"; };
 		6E0A44BF1F5EB3CE00AD7EA4 /* JPUSHDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JPUSHDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6E0A44C31F5EB3CE00AD7EA4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		6E0A44C51F5EB3CE00AD7EA4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +56,15 @@
 		6E0A44E31F5EB3CE00AD7EA4 /* JPUSHDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JPUSHDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6E0A44E71F5EB3CE00AD7EA4 /* JPUSHDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JPUSHDemoUITests.m; sourceTree = "<group>"; };
 		6E0A44E91F5EB3CE00AD7EA4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6E42E0981F5F8BBE009EEF1D /* AppDelegate+JPushSDK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "AppDelegate+JPushSDK.h"; sourceTree = "<group>"; };
+		6E42E0991F5F8BBE009EEF1D /* AppDelegate+JPushSDK.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "AppDelegate+JPushSDK.m"; sourceTree = "<group>"; };
+		6E5783151F5FA33700468802 /* YesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YesViewController.h; sourceTree = "<group>"; };
+		6E5783161F5FA33700468802 /* YesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YesViewController.m; sourceTree = "<group>"; };
+		6E5783181F5FA34D00468802 /* NoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NoViewController.h; sourceTree = "<group>"; };
+		6E5783191F5FA34D00468802 /* NoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NoViewController.m; sourceTree = "<group>"; };
+		6E57831C1F5FCFC900468802 /* JPUSHDemo.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = JPUSHDemo.entitlements; sourceTree = "<group>"; };
+		8B49793F7680ADB2B93C3B22 /* libPods-JPUSHDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-JPUSHDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F239B96E7AD436669247A191 /* Pods-JPUSHDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JPUSHDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JPUSHDemo/Pods-JPUSHDemo.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +72,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				88A4E84F83A9496B648C9FCF /* libPods-JPUSHDemo.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +93,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6B31594C811B1C85FF026E19 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8B49793F7680ADB2B93C3B22 /* libPods-JPUSHDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		6E0A44B61F5EB3CE00AD7EA4 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +108,8 @@
 				6E0A44DB1F5EB3CE00AD7EA4 /* JPUSHDemoTests */,
 				6E0A44E61F5EB3CE00AD7EA4 /* JPUSHDemoUITests */,
 				6E0A44C01F5EB3CE00AD7EA4 /* Products */,
+				73E88535919A9F8A1A57F9CD /* Pods */,
+				6B31594C811B1C85FF026E19 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,6 +126,13 @@
 		6E0A44C11F5EB3CE00AD7EA4 /* JPUSHDemo */ = {
 			isa = PBXGroup;
 			children = (
+				6E57831C1F5FCFC900468802 /* JPUSHDemo.entitlements */,
+				6E42E0981F5F8BBE009EEF1D /* AppDelegate+JPushSDK.h */,
+				6E42E0991F5F8BBE009EEF1D /* AppDelegate+JPushSDK.m */,
+				6E5783151F5FA33700468802 /* YesViewController.h */,
+				6E5783161F5FA33700468802 /* YesViewController.m */,
+				6E5783181F5FA34D00468802 /* NoViewController.h */,
+				6E5783191F5FA34D00468802 /* NoViewController.m */,
 				6E0A44C51F5EB3CE00AD7EA4 /* AppDelegate.h */,
 				6E0A44C61F5EB3CE00AD7EA4 /* AppDelegate.m */,
 				6E0A44C81F5EB3CE00AD7EA4 /* ViewController.h */,
@@ -140,6 +172,15 @@
 			path = JPUSHDemoUITests;
 			sourceTree = "<group>";
 		};
+		73E88535919A9F8A1A57F9CD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F239B96E7AD436669247A191 /* Pods-JPUSHDemo.debug.xcconfig */,
+				2BA617DAF184E0C2DEC8C41A /* Pods-JPUSHDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,9 +188,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6E0A44EC1F5EB3CE00AD7EA4 /* Build configuration list for PBXNativeTarget "JPUSHDemo" */;
 			buildPhases = (
+				4B662DEFF865AF6AA39F8994 /* [CP] Check Pods Manifest.lock */,
 				6E0A44BB1F5EB3CE00AD7EA4 /* Sources */,
 				6E0A44BC1F5EB3CE00AD7EA4 /* Frameworks */,
 				6E0A44BD1F5EB3CE00AD7EA4 /* Resources */,
+				29E269BA98DF16AA2627166C /* [CP] Embed Pods Frameworks */,
+				01568A71382DD4B2E160447C /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -207,7 +251,13 @@
 				TargetAttributes = {
 					6E0A44BE1F5EB3CE00AD7EA4 = {
 						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 6PTG33TQCL;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
 					};
 					6E0A44D71F5EB3CE00AD7EA4 = {
 						CreatedOnToolsVersion = 8.3.3;
@@ -268,14 +318,68 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		01568A71382DD4B2E160447C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JPUSHDemo/Pods-JPUSHDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		29E269BA98DF16AA2627166C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JPUSHDemo/Pods-JPUSHDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4B662DEFF865AF6AA39F8994 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-JPUSHDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		6E0A44BB1F5EB3CE00AD7EA4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				6E0A44CA1F5EB3CE00AD7EA4 /* ViewController.m in Sources */,
+				6E5783171F5FA33700468802 /* YesViewController.m in Sources */,
 				6E0A44C71F5EB3CE00AD7EA4 /* AppDelegate.m in Sources */,
 				6E0A44C41F5EB3CE00AD7EA4 /* main.m in Sources */,
+				6E42E09A1F5F8BBE009EEF1D /* AppDelegate+JPushSDK.m in Sources */,
+				6E57831A1F5FA34D00468802 /* NoViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -424,22 +528,30 @@
 		};
 		6E0A44ED1F5EB3CE00AD7EA4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F239B96E7AD436669247A191 /* Pods-JPUSHDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = JPUSHDemo/JPUSHDemo.entitlements;
+				DEVELOPMENT_TEAM = 6PTG33TQCL;
 				INFOPLIST_FILE = JPUSHDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = Dakawuliu.JPUSHDemo;
+				PRODUCT_BUNDLE_IDENTIFIER = com.qunzhi.DKWL;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
 		};
 		6E0A44EE1F5EB3CE00AD7EA4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2BA617DAF184E0C2DEC8C41A /* Pods-JPUSHDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = JPUSHDemo/JPUSHDemo.entitlements;
+				DEVELOPMENT_TEAM = 6PTG33TQCL;
 				INFOPLIST_FILE = JPUSHDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = Dakawuliu.JPUSHDemo;
+				PRODUCT_BUNDLE_IDENTIFIER = com.qunzhi.DKWL;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -509,6 +621,7 @@
 				6E0A44EE1F5EB3CE00AD7EA4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6E0A44EF1F5EB3CE00AD7EA4 /* Build configuration list for PBXNativeTarget "JPUSHDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -517,6 +630,7 @@
 				6E0A44F11F5EB3CE00AD7EA4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6E0A44F21F5EB3CE00AD7EA4 /* Build configuration list for PBXNativeTarget "JPUSHDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -525,6 +639,7 @@
 				6E0A44F41F5EB3CE00AD7EA4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

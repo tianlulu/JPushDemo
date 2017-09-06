@@ -6,10 +6,24 @@
 //  Copyright © 2017年 TianLuLu. All rights reserved.
 //
 
+/**
+ 极光推送步骤与注意事项：
+ 1.创建应用： 上传APNs Development IOS证书的p12文件和Apple Push Service证书的p12文件
+ 2.appKey需要集成到项目中
+ + (void)setupWithOption:(NSDictionary *)launchingOption appKey:(NSString *)appKey channel:(NSString *)channel apsForProductio (BOOL)isProduction advertisingIdentifier:(NSString *)advertisingId;
+ 3.上传证书的bundle必须与x-code 项目里面Bundle identifier一致（切记）
+ 4.导入sdk  pod 'JPush'
+ 5.开启Application Target的Capabilities->Push Notifications entitlement
+ 6.info.plist允许Xcode7支持Http传输方法 配置 间参考文档 https://docs.jiguang.cn/jpush/client/iOS/ios_guide_new/
+ 7.添加Delegate JPUSHRegisterDelegate 增加代理方法 见AppDelegate+JPushSDK
+ */
+
+
+
 #import "AppDelegate.h"
+#import "AppDelegate+JPushSDK.h"
 
 @interface AppDelegate ()
-
 @end
 
 @implementation AppDelegate
@@ -17,6 +31,7 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    [self JPushApplication:application didFinishLaunchingWithOptions:launchOptions];
     return YES;
 }
 
